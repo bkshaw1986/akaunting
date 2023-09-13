@@ -1,0 +1,25 @@
+{
+    "name": "akaunting/wallet",
+    "description": "",
+    "authors": [
+        {
+            "name": "Lotus Interworks Inc.",
+            "email": "info@lotusinterworks.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\Wallet\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Wallet\\Providers\\Main"
+            ],
+            "aliases": {
+                
+            }
+        }
+    }
+}
